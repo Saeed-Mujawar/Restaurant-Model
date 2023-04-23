@@ -35,7 +35,7 @@ public class RestaurantService {
       for(Restaurant rest : currList){
         if(rest.getId()== id){
           restaurantDao.remove(rest);
-          rest.setSpeciality(speciality);
+          rest.setSpecialDish(speciality);
           restaurantDao.add(rest);
           return "Updated successfully";
         }

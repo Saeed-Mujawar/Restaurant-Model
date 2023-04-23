@@ -2,18 +2,18 @@ package com.geekster.RestaurantModel.model;
 
 public class Restaurant {
    private int id;
-   private String name;
+   private String restaurantName;
    private String address;
-   private String speciality;
+   private String specialDish;
    private int numberOfStaffs;
    private boolean parking;
    private String ratings;
 
-   public Restaurant(int id, String name, String address, String speciality, int numberOfStaffs, boolean parking, String ratings) {
+   public Restaurant(int id, String restaurantName, String address, String speciality, int numberOfStaffs, boolean parking, String ratings) {
       this.id = id;
-      this.name = name;
+      this.restaurantName = restaurantName;
       this.address = address;
-      this.speciality = speciality;
+      this.specialDish = speciality;
       this.numberOfStaffs = numberOfStaffs;
       this.parking = parking;
       this.ratings = ratings;
@@ -28,11 +28,11 @@ public class Restaurant {
    }
 
    public String getName() {
-      return name;
+      return restaurantName;
    }
 
    public void setName(String name) {
-      this.name = name;
+      this.restaurantName = name;
    }
 
    public String getAddress() {
@@ -43,12 +43,12 @@ public class Restaurant {
       this.address = address;
    }
 
-   public String getSpeciality() {
-      return speciality;
+   public String getSpecialDish() {
+      return specialDish;
    }
 
-   public void setSpeciality(String speciality) {
-      this.speciality = speciality;
+   public void setSpecialDish(String specialDish) {
+      this.specialDish = specialDish;
    }
 
    public int getNumberOfStaffs() {
