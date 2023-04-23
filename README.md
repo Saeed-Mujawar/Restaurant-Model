@@ -7,10 +7,10 @@
 * [Java](https://www.java.com/en/download/help/whatis_java.html)
 >## Data flow
 In this project, we have four layers-
-* **Controller** - The controller layer handles the HTTP requests, translates the JSON parameter to object, and authenticates the request and transfer it to the business (service) layer. In short, it consists of views i.e., frontend part.
-* **Service** -The business layer handles all the business logic. It consists of service classes and uses services provided by data access layers.
+* **Controller** - The controller layer handles the HTTP requests, translates the JSON parameter to object, and authenticates the request and transfer it to the business (service) layer.
+* **Service** -The business layer handles all the business logic.
 * **Repository** - This layer mainatains the databases thing on which CRUD operations are performed
-* **Model** - This layer consists basically the class level things- the various classes required for the project and these classes consists the attributes to be stored.
+* **Model** - This layer consists basically various classes required for the project and these classes consists the attributes to be stored.
 
 >## Data Structure used in my project
 This document outlines the steps to create a simple URL hit counter feature using Spring Boot. The feature will track the number of hits for a given URL or a URL associated with a specific username.
@@ -43,11 +43,10 @@ and "SpringBoot dev Tools" dependency to the project.
 * This will contain all the attributes which a restaurant should contain.
 
 >## Project Summary
-
 The above project implements a Restaurant model which add some class variables to Restaurant  model class ( like restaurant name, restaurant address, number, specialty, total staffs etc.) on which various operation to be performed :-
-get Restaurant by id using GetMapping.
--get all Reataurant using  GetMapping
--Add some Restaurant to Restaurant lists using PostMapping 
--update Restaurant information like Specialty. 
--delete Restaurant from the list.
+* get Restaurant by id using GetMapping.
+* get all Reataurant using  GetMapping
+* Add some Restaurant to Restaurant lists using PostMapping 
+* update Restaurant information like Specialty. 
+* delete Restaurant from the list.
 
