@@ -8,9 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 @Repository
 public class RestaurantDao {
-    List<Restaurant> list = new ArrayList<>();
+    ArrayList<Restaurant> list = new ArrayList<>();
 
-    public List<Restaurant> getList(){
+    public ArrayList<Restaurant> getList(){
         return this.list;
     }
 
